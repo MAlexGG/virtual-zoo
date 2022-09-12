@@ -1,0 +1,26 @@
+VIRTUAL ZOO APP
+===============
+
+Instrucciones:
+
+***
+
+1. Crear un proyecto de react: npx create-react-app my-app
+2. Instalar React Router Dom, versión 6: npm install react-router-dom@6
+3. Instalar axios: npm install axios
+4. Instalar styled-components: npm install --save styled-components
+5. Iniciar repositorio GIT y github
+6. Crear estructura de carpetas (components, application, services, pages, assets)
+7. Crear función router (hacer los cambios necesarios a los archivos involucrados)
+8. Basarse en el archivo de Figma (el diseño deberá ser exactamente igual) mirar paleta de colores, textos, botones, etc. El estilo de los botones serán desarrollados en CSS, no podrán ser fotografías. 
+FIGMA: https://www.figma.com/file/C2WufDbWmVbojtcGXFJfcI/Animals?node-id=23%3A2
+9. Existirán 3 páginas:
+	- home: página de inicio que llevará a la página list.
+	- list: llamada a API donde muestre una lista de 10 animales aleatorios, existirá un botón de next para cargar otros 10 animales diferentes, cada animal tendrá un botón que lleve a la ficha del mismo y también tendrá el logo de la app que llevará a la página home.
+	- show: página de una ficha de un animal, tendrá un botón que lleve nuevamente a la lista.
+10. La llamada a la API será con axios y en un servicio separado del componente. API: https://zoo-animal-api.herokuapp.com
+11. El desarrollo será solo para móvil.
+12. Los componentes que se repitan tales como los botones, etc. serán reutilizables (DRY).
+13. Se usarán solo componentes funcionales, no de clase.
+14. Deberá existir un componente que indique que la información está siendo cargada cuando haga la llamada a la API (loader).
+15. Recursos entregados: imagen de la página principal (HomeImage.jpg), logo (logo.svg) y la flecha para el botón de adelante o atrás (arrow.svg).
